@@ -10,7 +10,7 @@ hbs.registerPartials(__dirname+'/views/partials')
 
 app.set('view engine', 'hbs');
 
-hbs.registerHelper('getCureentYear',() => {
+hbs.registerHelper('getCurrentYear',() => {
   return new Date().getFullYear()
 });
 
